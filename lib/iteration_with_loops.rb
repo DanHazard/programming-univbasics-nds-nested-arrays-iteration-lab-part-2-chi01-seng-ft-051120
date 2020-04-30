@@ -14,6 +14,8 @@ def find_min_in_nested_arrays(src)
       end
       y += 1
     end
+    array_of_mins << min_of_array
     x += 1 
   end
+  array_of_mins
 end
